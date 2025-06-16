@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# Together App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The Together App is a mobile application designed to help users document and share their life stories in a deeply personal and interactive way. It combines a rich, visual timeline with voice notes and inspirations to create a unique digital autobiography.
 
-## Get started
+## Core Features
 
-1. Install dependencies
+- **Modern Profile Page:** A redesigned, social-media-style profile featuring a cover photo, avatar, and a tabbed layout for navigating different aspects of a user's story.
+- **Image Gallery:** A beautiful grid-style gallery that aggregates all images from a user's life timeline and visual inspirations.
+- **Vertical Timeline:** An elegant, custom-built vertical timeline that showcases life events in a chronological and engaging format.
+- **Inspirations Section:** A dedicated space for users to display their favorite quotes, books, and heroes, presented in a clean card layout.
+- **Voice Notes:** A complete voice recording and playback feature that allows users to capture their thoughts and memories in their own voice.
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+To get the app running locally, follow these steps:
 
-   ```bash
-   npx expo start
-   ```
+1.  **Install Dependencies:**
 
-In the output, you'll find options to open the app in a
+    ```bash
+    npm install
+    ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2.  **Run the App:**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+    ```bash
+    npx expo start
+    ```
 
-## Get a fresh project
+    This will open the Expo developer tools in your browser. From there, you can launch the app on an iOS simulator, Android emulator, or on your own device using the Expo Go app.
 
-When you're ready, run:
+## Available Scripts
 
-```bash
-npm run reset-project
-```
+- `npm start`: Starts the Expo development server.
+- `npm run android`: Starts the app on a connected Android device or emulator.
+- `npm run ios`: Starts the app on the iOS simulator.
+- `npm run web`: Runs the app in a web browser.
+- `npm run lint`: Lints the entire codebase using ESLint to find and report any issues.
+- `npm run format`: Formats all files in the project with Prettier to ensure a consistent code style.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Code Quality
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project uses ESLint, Prettier, and Husky to enforce code quality and a consistent style. A pre-commit hook is configured to automatically lint and format your code before each commit, ensuring that no errors or style inconsistencies make it into the codebase.
